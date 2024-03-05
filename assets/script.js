@@ -47,9 +47,9 @@ function encode(value) {
     } else {
         let encodedValue = window.btoa(value);
         if (currentMode == 'redirect') {
-            output.innerText=`https://hermisperm.github.io/urlmskr/${encodedValue}`
+            output.innerText=`https://whyskuwyu.github.io/OrcExtPlgs/${encodedValue}`
         } else if (currentMode == 'text') {
-            output.innerText=`https://hermisperm.github.io/urlmskr/?t=${encodedValue}`    
+            output.innerText=`https://whyskuwyu.github.io/OrcExtPlgs/?t=${encodedValue}`    
         }
     }
 };
